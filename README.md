@@ -15,7 +15,7 @@ le adapta la siguiente sesión.
 
 Quien empieza a programar por su cuenta suele abandonar en las primeras semanas: lecciones
 largas, entornos que no se instalan y errores en inglés que no entiende. RUNNE ataca las tres
-cosas con lecciones de cinco minutos, código que se ejecuta en el navegador sin instalar nada,
+cosas con lecciones de cinco minutos, código que se ejecuta desde el navegador, sin instalar nada,
 errores explicados en español y un modelo que detecta el riesgo de abandono a tiempo.
 
 ## Qué hace
@@ -46,7 +46,7 @@ flowchart TB
     api[API NestJS<br/>auth, content, learning,<br/>gamification, execution, guard]
     onnx[[Modelo ONNX<br/>onnxruntime-node]]
     pg[(PostgreSQL 17)]
-    redis[(Redis 8<br/>ligas, sesiones, caché, colas)]
+    redis[(Redis 8<br/>límite de peticiones)]
     piston[Piston<br/>motor de ejecución aislado, sin red]
   end
 
@@ -102,7 +102,7 @@ flowchart TB
 
 ## Mi rol
 
-Fui el **responsable del repositorio** e integré los PR del equipo. En el historial:
+Fui **líder técnico y desarrollador principal**, y como responsable del repositorio integré los PR del equipo. En el historial:
 
 - **101 de los 142 commits** (sin contar fusiones) son míos, más **34 PR integrados**.
 - **Historias de usuario que desarrollé:** registro (HU01), onboarding por perfil (HU02), rutas
@@ -134,7 +134,7 @@ the next session. Built by a team of six in 8 sprints (school project) with a pn
 monorepo, React + Vite, NestJS, Prisma, PostgreSQL, Redis and Piston. Measured results: over 670
 automated tests, 92.7 % API coverage, Lighthouse mobile performance 90–100, zero ZAP findings.
 
-**My role:** repository lead; 101 of 142 non-merge commits and 34 merged PRs. I built sign-up,
+**My role:** tech lead and main developer; 101 of 142 non-merge commits and 34 merged PRs. I built sign-up,
 onboarding, career paths, lessons, the 8 exercise formats, SM-2 reviews, concept progress, web push
 reminders, password recovery and minor consent, plus the Phase 0 setup and the Sprint 8 QA work
 (staging, k6, ZAP, Lighthouse). RUNNE Guard, the CMS and gamification were built by teammates.
