@@ -9,6 +9,8 @@ le adapta la siguiente sesión.
 > entre el 28 de septiembre y el 15 de octubre de 2026. El código vive en el repositorio privado
 > del equipo; aquí se documentan el proyecto y **mi parte**.
 
+**Abre la app:** [runne.northcentralus.cloudapp.azure.com](https://runne.northcentralus.cloudapp.azure.com). Es gratis y pide crear una cuenta.
+
 ![Lección de RUNNE](docs/screenshots/01-leccion.png)
 
 ## El problema
@@ -133,6 +135,8 @@ and **RUNNE Guard**, an ML model (LightGBM exported to ONNX) that predicts dropo
 the next session. Built by a team of six in 8 sprints (school project) with a pnpm/Turborepo
 monorepo, React + Vite, NestJS, Prisma, PostgreSQL, Redis and Piston. Measured results: over 670
 automated tests, 92.7 % API coverage, Lighthouse mobile performance 90–100, zero ZAP findings.
+
+**Open the app:** [runne.northcentralus.cloudapp.azure.com](https://runne.northcentralus.cloudapp.azure.com). It's free, in Spanish, and asks you to create an account.
 
 **My role:** tech lead and main developer; 101 of 142 non-merge commits and 34 merged PRs. I built sign-up,
 onboarding, career paths, lessons, the 8 exercise formats, SM-2 reviews, concept progress, web push
